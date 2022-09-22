@@ -1,3 +1,5 @@
+# Copyright © https://steam.oxxostudio.tw
+
 # 如果是本機環境不用 flask_ngrok
 from flask_ngrok import run_with_ngrok
 
