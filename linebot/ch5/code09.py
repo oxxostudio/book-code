@@ -14,6 +14,6 @@ body = {
         }]
 }
 
-# 使用 POST 方法發出請求
+# 向指定網址用 POST 方法發送 request
 req = requests.request('POST', 'https://api.line.me/v2/bot/message/reply', headers=headers,data=json.dumps(body).encode('utf-8'))
 print(req.text)
