@@ -1,3 +1,5 @@
+# Copyright © https://steam.oxxostudio.tw
+
 from linebot import LineBotApi, WebhookHandler
 # 載入對應的函式庫
 from linebot.models import FlexSendMessage, BubbleContainer, ImageComponent

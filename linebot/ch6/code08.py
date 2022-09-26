@@ -1,3 +1,5 @@
+# Copyright © https://steam.oxxostudio.tw
+
 import requests
 
 headers = {'Authorization':'Bearer 你的 Access Token'}

@@ -1,3 +1,5 @@
+# Copyright © https://steam.oxxostudio.tw
+
 from linebot import LineBotApi, WebhookHandler
 # 需要額外載入對應的函示庫
 from linebot.models import PostbackAction,URIAction, MessageAction, TemplateSendMessage, ButtonsTemplate

@@ -1,3 +1,5 @@
+# Copyright © https://steam.oxxostudio.tw
+
 import requests
 import json
 # 設定 headers，輸入你的 Access Token，記得前方要加上「Bearer 」( 有一個空白 )

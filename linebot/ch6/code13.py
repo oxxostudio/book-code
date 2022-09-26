@@ -1,3 +1,5 @@
+# Copyright © https://steam.oxxostudio.tw
+
 import requests, json
 headers = {'Authorization':'Bearer 你的 access token','Content-Type':'application/json'}
 

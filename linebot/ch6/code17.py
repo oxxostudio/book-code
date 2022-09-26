@@ -1,3 +1,5 @@
+# Copyright © https://steam.oxxostudio.tw
+
 from linebot import LineBotApi, WebhookHandler
 
 line_bot_api = LineBotApi('你的 Access Token')
