@@ -1,0 +1,7 @@
+from google.colab import drive
+drive.mount('/content/drive', force_remount=True)
+ 
+!mkdir -p /drive
+!mount --bind /content/drive/My\ Drive /drive
+!mkdir -p /drive/ngrok-ssh
+!mkdir -p ~/.ssh
