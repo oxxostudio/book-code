@@ -1,3 +1,5 @@
+# Copyright © https://steam.oxxostudio.tw
+
 def hello_world(request):
     request_json = request.get_json()
     print(request.args )   # 讀取 GET 方法參數
