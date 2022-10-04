@@ -1,3 +1,5 @@
+# Copyright © https://steam.oxxostudio.tw
+
 import requests
 
 url = 'https://notify-api.line.me/api/notify'
