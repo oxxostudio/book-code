@@ -214,16 +214,17 @@ def aqi(address):
     city_list, site_list ={}, {}
     msg = '找不到空氣品質資訊。'
     try:
-        url = 'https://data.epa.gov.tw/api/v1/aqx_p_432?limit=1000&api_key=9be7b239-557b-4c10-9775-78cadfc555e9&sort=ImportDate%20desc&format=json'
+        # 2022/12 時氣象局有修改了 API 內容，將部份大小寫混合全改成小寫，因此程式碼也跟著修正
+        url = 'https://data.epa.gov.tw/api/v2/aqx_p_432?api_key=e8dd42e6-9b8b-43f8-991e-b3dee723a52d&limit=1000&sort=ImportDate%20desc&format=JSON'
         a_data = requests.get(url)             # 使用 get 方法透過空氣品質指標 API 取得內容
         a_data_json = a_data.json()            # json 格式化訊息內容
         for i in a_data_json['records']:       # 依序取出 records 內容的每個項目
-            city = i['County']                 # 取出縣市名稱
+            city = i['county']                 # 取出縣市名稱
             if city not in city_list:
                 city_list[city]=[]             # 以縣市名稱為 key，準備存入串列資料
-            site = i['SiteName']               # 取出鄉鎮區域名稱
-            aqi = int(i['AQI'])                # 取得 AQI 數值
-            status = i['Status']               # 取得空氣品質狀態
+            site = i['sitename']               # 取出鄉鎮區域名稱
+            aqi = int(i['aqi'])                # 取得 AQI 數值
+            status = i['status']               # 取得空氣品質狀態
             site_list[site] = {'aqi':aqi, 'status':status}  # 記錄鄉鎮區域空氣品質
             city_list[city].append(aqi)        # 將各個縣市裡的鄉鎮區域空氣 aqi 數值，以串列方式放入縣市名稱的變數裡
         for i in city_list:
