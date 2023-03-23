@@ -19,3 +19,10 @@
 ## 如何購買本書
 
 - [天瓏網路書店](https://www.tenlong.com.tw/products/9786267146835?list_name=b-r7-zh_tw)。
+
+![LINE BOT](cover.jpeg)
+
+## 更多參考
+
+- [STEAM 教育學習網](https://steam.oxxostudio.tw)
+- [STEAM 教育學習網 ( Python 教學 )](https://steam.oxxostudio.tw/category/python/info/start.html)
