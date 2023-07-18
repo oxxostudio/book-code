@@ -1,0 +1,16 @@
+from PyQt6 import QtWidgets     # 將 PyQt6 換成 PyQt5 就能改用 PyQt5
+import sys
+app = QtWidgets.QApplication(sys.argv)
+
+Form = QtWidgets.QWidget()
+Form.setWindowTitle('oxxo.studio')
+Form.resize(300, 200)
+
+input_1 = QtWidgets.QLineEdit(Form)   # 第一個輸入框
+input_1.move(20,20)                   # 移動到 (20, 20)
+
+input_2 = QtWidgets.QLineEdit(Form)   # 第二個輸入框
+input_2.setGeometry(20,50,100,20)     # 設定位置與長寬
+
+Form.show()
+sys.exit(app.exec())
