@@ -1,3 +1,5 @@
+# Copyright © https://steam.oxxostudio.tw
+
 from PyQt6 import QtWidgets
 from PyQt6.QtGui import QPainter, QColor, QFont
 import sys

@@ -1,3 +1,5 @@
+# Copyright © https://steam.oxxostudio.tw
+
 import numpy as np
 import matplotlib
 matplotlib.use("Qt5Agg")  # 使用 Qt5

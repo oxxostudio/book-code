@@ -1,3 +1,5 @@
+# Copyright © https://steam.oxxostudio.tw
+
 # 將 PyQt6 換成 PyQt5 就能改用 PyQt5
 from PyQt6 import QtWidgets
 import pyaudio

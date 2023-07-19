@@ -1,6 +1,6 @@
-# LINE BOT 書籍範例程式碼
+# 「LINE BOT 開發技巧」書籍範例程式碼
 
-這是 LINE BOT 書籍的範例程式碼，請參考書籍內容一起練習。
+這是 「一本精通 - LINE BOT 開發技巧」 書籍的範例程式碼，請參考書籍內容一起練習。
 
 > 內容更新資訊：
 > - 2022/12/14：因氣象局 API 格式和網址有變，修正氣象機器人爬蟲程式。
@@ -19,8 +19,9 @@
 ## 如何購買本書
 
 - [天瓏網路書店](https://www.tenlong.com.tw/products/9786267146835?list_name=b-r7-zh_tw)。
+- [博客來](https://www.books.com.tw/products/0010943754?sloc=main)。
 
-![LINE BOT](cover.jpeg)
+![一本精通 - LINE BOT 開發技巧](cover.jpeg)
 
 ## 更多參考
 

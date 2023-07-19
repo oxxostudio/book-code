@@ -1,3 +1,5 @@
+# Copyright © https://steam.oxxostudio.tw
+
 from PyQt5 import QtWidgets
 import sys
 

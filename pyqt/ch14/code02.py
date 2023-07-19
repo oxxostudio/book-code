@@ -1,3 +1,5 @@
+# Copyright © https://steam.oxxostudio.tw
+
 # 顯示數字函式，n 為點擊按鈕時要帶入的數值
 def showNum(n):
     global num
