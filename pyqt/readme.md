@@ -4,6 +4,8 @@
 
 ## 章節導覽
 
+Chapter 01、Chapter 03 為觀念說明，Chapter 02 為 QTDesigner 介紹，這張個章節均不檢附程式碼。
+
 - [Chapter 04 - 介面元件 ( 顯示與按鈕 )](ch04)
 - [Chapter 05 - 介面元件（輸入與下拉選單）](ch05)
 - [Chapter 06 - 介面元件（數值調整）](ch06)

@@ -1,0 +1,9 @@
+from PyQt5 import QtWidgets
+import sys
+
+app = QtWidgets.QApplication(sys.argv)
+screen = QtWidgets.QApplication.desktop()
+width = screen.width()
+height = screen.height()
+print(width, height)
+

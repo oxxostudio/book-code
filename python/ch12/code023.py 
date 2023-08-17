@@ -1,0 +1,10 @@
+import os
+os.chdir('/content/drive/MyDrive/Colab Notebooks')  # Colab 換路徑使用，本機或 Jupyter 環境可刪除
+
+from pikepdf import Pdf
+pdf1 = Pdf.open('oxxosudio.pdf')  # 開啟第一份 pdf
+pdf2 = Pdf.open('new.pdf')        # 開啟第二份 pdf
+pdf1.pages[2] = pdf2.pages[0]     # 將第一份的第三頁，換成第一份的第一頁
+pdf1.save('output.pdf')
+
+

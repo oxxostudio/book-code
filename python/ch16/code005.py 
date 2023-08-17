@@ -1,0 +1,8 @@
+from selenium import webdriver
+from selenium.webdriver.common.action_chains import ActionChains
+submitBtn = driver.find_element(By.CSS_SELECTOR, '#submitBtn')
+actions = ActionChains(driver)
+# 滑鼠先移到 submitBtn 上，然後再點擊 submitBtn
+actions.move_to_element(submitBtn).click(submitBtn)
+actions.perform()
+

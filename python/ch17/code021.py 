@@ -1,0 +1,22 @@
+import smtplib
+from email.mime.text import MIMEText
+
+html = '''
+<h1>hello</h1>
+<div>這是 HTML 的內容</div>
+<div style="color:red">紅色的字</div>
+'''
+
+mail = MIMEText(html, 'html', 'utf-8')   # plain 換成 html，就能寄送 HTML 格式的信件
+mail['Subject']='html 的信'
+mail['From']='oxxo'
+mail['To']='oxxo.studio@gmail.com'
+
+smtp = smtplib.SMTP('smtp.gmail.com', 587)
+smtp.ehlo()
+smtp.starttls()
+smtp.login('你的信箱','你的密碼')
+status = smtp.send_message(mail)
+print(status)
+smtp.quit()
+
